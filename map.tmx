@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+  <image source="tiles.png" width="64" height="128"/>
+  <terraintypes>
+   <terrain name="grass" tile="17"/>
+   <terrain name="dirt" tile="16"/>
+  </terraintypes>
+  <tile id="16" terrain="1,1,1,1"/>
+  <tile id="17" terrain="0,0,0,0"/>
+  <tile id="18" terrain="0,0,0,1"/>
+  <tile id="19" terrain="0,0,1,0"/>
+  <tile id="22" terrain="0,1,0,0"/>
+  <tile id="23" terrain="1,0,0,0"/>
+  <tile id="24" terrain="0,1,1,1"/>
+  <tile id="25" terrain="1,0,1,1"/>
+  <tile id="26" terrain="0,1,0,1"/>
+  <tile id="27" terrain="0,0,1,1"/>
+  <tile id="28" terrain="1,1,0,1"/>
+  <tile id="29" terrain="1,1,1,0"/>
+  <tile id="30" terrain="1,0,1,0"/>
+  <tile id="31" terrain="1,1,0,0"/>
+ </tileset>
+ <layer name="base" width="10" height="10">
+  <data encoding="csv">
+18,18,18,18,18,18,18,18,18,18,
+18,19,28,28,20,18,18,18,18,18,
+18,27,17,17,31,18,19,28,20,18,
+18,27,17,17,26,28,25,17,31,18,
+18,27,17,17,17,17,17,17,31,18,
+18,23,29,17,17,17,17,30,24,18,
+18,18,23,32,32,29,17,31,18,18,
+18,18,19,28,28,25,17,26,20,18,
+18,18,27,17,17,17,17,17,31,18,
+18,18,23,32,32,32,32,32,24,18
+</data>
+ </layer>
+ <layer name="trees" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="fruit" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
